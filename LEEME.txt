@@ -1,9 +1,11 @@
 Mi colección Pokémon TCG · 30.º aniversario
 
-Este paquete incluye el checklist de 158 entradas, guardado local, manifest, iconos y service worker.
+Este paquete contiene la versión visual del checklist (158 entradas), guardado local, manifiesto PWA, iconos y service worker.
 
-IMPORTANTE: para que Android permita instalarla como aplicación desde Chrome, estos archivos deben estar alojados en una dirección HTTPS. Abrir index.html como archivo descargado no permite instalar una PWA completa.
+IMPORTANTE: para instalarla desde Chrome como aplicación, primero hay que publicar TODOS estos archivos en una web con HTTPS. Abrir index.html desde Descargas no instala una PWA completa.
 
-Las fotografías de las cartas todavía no están integradas en esta versión. Se deben añadir usando URLs de imágenes verificadas del catálogo para no asociar ilustraciones incorrectas a cartas con el mismo nombre.
+La app intenta cargar las imágenes de las 158 cartas desde TCGdex cuando hay conexión a Internet. Las imágenes se cargan desde un servicio externo y no se guardan dentro de la app. El botón “Ver foto” sigue abriendo la galería externa.
 
-El guardado usa localStorage del navegador y la clave pokemon30_personal_v1; no borres los datos del navegador sin exportar una copia JSON.
+El progreso se guarda en el almacenamiento local del navegador (clave pokemon30_personal_v1). Antes de cambiar de versión o borrar datos, usa “Exportar copia JSON”. El progreso del archivo local no se transfiere automáticamente a la versión publicada; importa la copia JSON cuando esté disponible.
+
+Esta es una app personal no oficial, sin relación con The Pokémon Company.
