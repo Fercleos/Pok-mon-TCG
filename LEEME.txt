@@ -1,0 +1,9 @@
+Mi colección Pokémon TCG · 30.º aniversario
+
+Este paquete incluye el checklist de 158 entradas, guardado local, manifest, iconos y service worker.
+
+IMPORTANTE: para que Android permita instalarla como aplicación desde Chrome, estos archivos deben estar alojados en una dirección HTTPS. Abrir index.html como archivo descargado no permite instalar una PWA completa.
+
+Las fotografías de las cartas todavía no están integradas en esta versión. Se deben añadir usando URLs de imágenes verificadas del catálogo para no asociar ilustraciones incorrectas a cartas con el mismo nombre.
+
+El guardado usa localStorage del navegador y la clave pokemon30_personal_v1; no borres los datos del navegador sin exportar una copia JSON.
