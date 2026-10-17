@@ -1,0 +1,19 @@
+{
+  "id": "./",
+  "name": "Pokémon 30.º Aniversario",
+  "short_name": "Pokémon 30",
+  "description": "Checklist personal de cartas Pokémon del 30.º aniversario",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#0b1225",
+  "theme_color": "#10182d",
+  "icons": [
+    {
+      "src": "./icon.svg?v=2",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}
