@@ -1,1 +1,29 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><defs><linearGradient id="b" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#06164b"/><stop offset=".55" stop-color="#087de7"/><stop offset="1" stop-color="#07113b"/></linearGradient><linearGradient id="g" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#fff5a9"/><stop offset=".5" stop-color="#ffd32b"/><stop offset="1" stop-color="#ef8700"/></linearGradient></defs><rect width="512" height="512" rx="105" fill="url(#b)"/><rect x="13" y="13" width="486" height="486" rx="92" fill="none" stroke="url(#g)" stroke-width="15"/><g fill="#fff3b2"><path d="M76 74l8 22 22 8-22 8-8 22-8-22-22-8 22-8z"/><path d="M425 118l6 16 16 6-16 6-6 16-6-16-16-6 16-6z"/><circle cx="110" cy="180" r="4"/><circle cx="402" cy="211" r="5"/><circle cx="93" cy="341" r="4"/><circle cx="425" cy="354" r="4"/></g><path d="M350 262l105-73-13 94 42 28-119 19z" fill="#ffca20" stroke="#fff4a0" stroke-width="8" stroke-linejoin="round"/><path d="M168 174L134 94l65 51M345 174l42-82-70 61" fill="#ffdc32" stroke="#151a35" stroke-width="13" stroke-linejoin="round"/><path d="M134 94l18 45 18 10-19-55zM387 92l-18 47-21 13 23-60z" fill="#151a35"/><ellipse cx="256" cy="235" rx="111" ry="123" fill="#ffdc32" stroke="#fff5c2" stroke-width="9"/><ellipse cx="218" cy="224" rx="14" ry="18" fill="#171b35"/><ellipse cx="295" cy="224" rx="14" ry="18" fill="#171b35"/><circle cx="222" cy="218" r="5" fill="#fff"/><circle cx="299" cy="218" r="5" fill="#fff"/><circle cx="181" cy="266" r="22" fill="#f0443e"/><circle cx="331" cy="266" r="22" fill="#f0443e"/><path d="M235 267q21 17 42 0q-3 39-21 39t-21-39" fill="#7d1725" stroke="#41202b" stroke-width="5"/><path d="M256 294q-13-5-18-17q18 4 36 0q-4 13-18 17" fill="#ff9aa5"/><path d="M193 331l-32 34 54-6M321 331l32 34-54-6" fill="#ffdc32" stroke="#fff5c2" stroke-width="9" stroke-linejoin="round"/><path d="M62 373h388l-20 62H82z" fill="#071944" stroke="#ffd54a" stroke-width="7"/><text x="256" y="411" font-family="Arial,sans-serif" font-size="36" font-weight="900" text-anchor="middle" fill="#ffda38" stroke="#081c55" stroke-width="2" paint-order="stroke">POKÉMON</text><text x="256" y="466" font-family="Arial,sans-serif" font-size="22" font-weight="900" text-anchor="middle" fill="#fff2b0">30.º ANIVERSARIO</text></svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+<defs>
+ <linearGradient id="blue" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#04194e"/><stop offset=".48" stop-color="#087de9"/><stop offset="1" stop-color="#03133c"/></linearGradient>
+ <linearGradient id="gold" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#fffbd0"/><stop offset=".25" stop-color="#ffe76a"/><stop offset=".58" stop-color="#ffbd19"/><stop offset="1" stop-color="#b95b00"/></linearGradient>
+ <linearGradient id="yellow" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#fff36b"/><stop offset="1" stop-color="#ffbd05"/></linearGradient>
+ <filter id="shadow" x="-30%" y="-30%" width="160%" height="160%"><feDropShadow dx="0" dy="5" stdDeviation="5" flood-color="#000" flood-opacity=".7"/></filter>
+</defs>
+<rect width="512" height="512" rx="100" fill="url(#blue)"/>
+<rect x="12" y="12" width="488" height="488" rx="88" fill="none" stroke="url(#gold)" stroke-width="15"/>
+<g fill="#fff8c4"><path d="M74 60l9 24 24 9-24 9-9 24-9-24-24-9 24-9z"/><path d="M432 85l6 17 17 6-17 6-6 17-6-17-17-6 17-6z"/><path d="M75 303l5 13 13 5-13 5-5 13-5-13-13-5 13-5z"/><circle cx="414" cy="304" r="5"/><circle cx="112" cy="145" r="4"/><circle cx="390" cy="166" r="4"/><circle cx="132" cy="382" r="4"/><circle cx="393" cy="391" r="4"/></g>
+<!-- card backs -->
+<g filter="url(#shadow)" stroke="#d8edff" stroke-width="5"><g transform="rotate(-16 135 221)"><rect x="48" y="137" width="132" height="184" rx="12" fill="#123d92"/><rect x="57" y="146" width="114" height="166" rx="8" fill="#176fe1"/><circle cx="114" cy="228" r="39" fill="#e9f5ff"/><circle cx="114" cy="228" r="27" fill="#f3f7ff"/><path d="M87 228h54" stroke="#163b76" stroke-width="8"/></g><g transform="rotate(15 377 222)"><rect x="332" y="135" width="132" height="184" rx="12" fill="#123d92"/><rect x="341" y="144" width="114" height="166" rx="8" fill="#176fe1"/><circle cx="398" cy="226" r="39" fill="#e9f5ff"/><circle cx="398" cy="226" r="27" fill="#f3f7ff"/><path d="M371 226h54" stroke="#163b76" stroke-width="8"/></g></g>
+<!-- lightning tail -->
+<path d="M337 245l83-64-9 67 43 24-92 37-15-32-35 2z" fill="url(#yellow)" stroke="#fff5ba" stroke-width="8" stroke-linejoin="round" filter="url(#shadow)"/>
+<!-- ears -->
+<path d="M174 163L139 61Q136 48 149 57L222 124M320 126L380 58Q392 47 389 66L367 169" fill="url(#yellow)" stroke="#202039" stroke-width="12" stroke-linejoin="round"/>
+<path d="M143 62l25 71 24 8-42-82M381 62l-31 72 16 6 18-78" fill="#17182a"/>
+<!-- body and face -->
+<ellipse cx="256" cy="231" rx="111" ry="119" fill="url(#yellow)" stroke="#fff7c4" stroke-width="8" filter="url(#shadow)"/>
+<ellipse cx="216" cy="218" rx="15" ry="20" fill="#171b2c"/><ellipse cx="296" cy="218" rx="15" ry="20" fill="#171b2c"/>
+<circle cx="220" cy="211" r="6" fill="#fff"/><circle cx="300" cy="211" r="6" fill="#fff"/>
+<circle cx="180" cy="260" r="22" fill="#f43b36"/><circle cx="332" cy="260" r="22" fill="#f43b36"/>
+<path d="M229 259Q256 280 283 259Q279 304 256 307Q233 304 229 259" fill="#68182b" stroke="#321426" stroke-width="4"/><path d="M239 287q17 9 34 0q-7 18-17 18t-17-18" fill="#ff8eaa"/>
+<path d="M190 318l-38 35 59-8M322 318l38 35-59-8" fill="url(#yellow)" stroke="#fff4b0" stroke-width="8" stroke-linejoin="round"/>
+<!-- anniversary badge -->
+<path d="M58 366H454L431 440H81Z" fill="#07163c" stroke="url(#gold)" stroke-width="8" stroke-linejoin="round" filter="url(#shadow)"/>
+<text x="256" y="400" text-anchor="middle" font-family="Arial,sans-serif" font-size="21" font-weight="900" letter-spacing="3" fill="#fff2a2">COLECCIÓN</text>
+<text x="256" y="435" text-anchor="middle" font-family="Arial,sans-serif" font-size="31" font-weight="900" fill="url(#gold)" stroke="#432000" stroke-width="1.5" paint-order="stroke">30.º ANIVERSARIO</text>
+</svg>
